@@ -2,7 +2,7 @@
 
 The plugin is split in two. This one keeps the **layout** (the Archived Articles template and
 sources for the YOOtheme Pro builder). The archive **automation** is now the separate plugin
-[Auto Archive](https://github.com/WebG-it/joomla-extensions/blob/main/docs/autoarchive/USAGE.md),
+[Auto Archive](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/USAGE.md),
 which also works without YOOtheme. Update from *System > Update > Extensions*.
 
 **If you never switched the automation on**: just update, nothing changes.
@@ -24,6 +24,6 @@ and Auto Archive installed first, and with it on and Auto Archive missing (updat
 changed); also with YOOtheme Pro 5.0.51, Essentials for YOOtheme Pro 3.0.15 and 4SEO 7.2.0 active.
 JED Checker `master` and `develop`: no errors, no warnings, one notice about the `<licence>` element.
 
-Docs: [user guide](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USAGE.md) ·
-[guida in italiano](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USO.md) ·
-[changelog](https://github.com/WebG-it/joomla-extensions/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
+Docs: [user guide](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USAGE.md) ·
+[guida in italiano](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USO.md) ·
+[changelog](https://github.com/WebG-it/archive-layouts/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)

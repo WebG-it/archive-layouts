@@ -1,5 +1,7 @@
 # Archive Layouts for YOOtheme: developer guide
 
+> **Tools.** The Docker test environment (`dev/...`), the build script (`build/build_plugin.py`) and the JED Checker helpers are not in this repository: they live in [joomla-dev-tools](https://github.com/WebG-it/joomla-dev-tools). Paths such as `dev/` and `build/` below refer to that repository (clone it next to this one). The update server of this plugin is `collection.xml` (it points to `updates/yooarchive.xml`) in this repository (announced by `collection.xml`, type `collection`; manifest `<updateservers>`).
+
 English summary of [DEVELOPING.md](./DEVELOPING.md) (Italian, more detailed).
 
 > Public repository: never commit tokens, passwords, keys, server hosts or customer data, and
@@ -30,7 +32,7 @@ map to `article`, so `jcfields` is empty; `ArchiveQueryType::prepareItems()` dro
 and YOOtheme reloads the fields with `com_content.article`.
 
 Automation: no longer in this plugin. Up to 1.2 it was `src/Automation/Automation.php`; since 2.0
-it is the separate plugin `plg_system_autoarchive` ([guide](../autoarchive/DEVELOPING.en.md)). The
+it is the separate plugin `plg_system_autoarchive` ([guide](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/DEVELOPING.en.md)). The
 `script.php` of this plugin has a `preflight` that refuses an update from 1.x when the automation
 is on and Auto Archive is missing or disabled (nothing changes), and removes the old automation
 files after an update.

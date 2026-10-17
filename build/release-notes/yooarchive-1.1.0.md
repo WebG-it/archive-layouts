@@ -22,8 +22,8 @@ YOOtheme Pro 5.0.51). JED Checker: no errors, no warnings.
 **Install**: download `plg_system_yooarchive-1.1.0.zip` below and upload it in
 *System > Install > Extensions*. Updates arrive through the WebG update server.
 
-Docs: [user guide](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USAGE.md) ·
-[guida in italiano](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USO.md) ·
-[changelog](https://github.com/WebG-it/joomla-extensions/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
+Docs: [user guide](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USAGE.md) ·
+[guida in italiano](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USO.md) ·
+[changelog](https://github.com/WebG-it/archive-layouts/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
 
 sha256 `eb5134a07a624e5438d54602b6ba2a2be6dcc7935662af8ba0589ce52c85f795`

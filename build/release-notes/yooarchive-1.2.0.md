@@ -19,7 +19,7 @@ together with **Essentials for YOOtheme Pro** and **4SEO** on Joomla 6.2 and 5.4
 5.0.51, Essentials for YOOtheme Pro 3.0.15, 4SEO 7.2.0.2824. Install, update and uninstall with the others active (plugin first, and reinstalled after them); Essentials elements, sources and filters in every template including *Archived
 Articles*; other YOOtheme templates unchanged; 4SEO title, description, canonical, structured
 data, breadcrumb and sitemap unchanged. Details:
-[tested compatibility](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USAGE.md#tested-compatibility).
+[tested compatibility](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USAGE.md#tested-compatibility).
 JED Checker `master` and `develop`: no errors, no warnings, one notice about the `<licence>`
 element (required by rule PH3 of `develop`, not known to the manifest validation).
 
@@ -28,8 +28,8 @@ element (required by rule PH3 of `develop`, not known to the manifest validation
 **Install or update**: download `plg_system_yooarchive-1.2.0.zip` below and upload it in
 *System > Install > Extensions*, or update from *System > Update > Extensions*.
 
-Docs: [user guide](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USAGE.md) ·
-[guida in italiano](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USO.md) ·
-[changelog](https://github.com/WebG-it/joomla-extensions/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
+Docs: [user guide](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USAGE.md) ·
+[guida in italiano](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USO.md) ·
+[changelog](https://github.com/WebG-it/archive-layouts/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
 
 sha256 `a103fb557176fd4532efade8e623a36b4a329d4c796bf35813052e468a5a5a92`

@@ -14,7 +14,7 @@ archiviati come contenuto dinamico (titolo, immagini, link, date, categoria, aut
 
 La versione 2.0 fa solo questo: il layout. Tenere gli articoli archiviati in una categoria in
 automatico è un'esigenza diversa ed è ora un plugin separato, **Auto Archive** (funziona con o
-senza YOOtheme): vedi [Auto Archive](../autoarchive/USO.md) e
+senza YOOtheme): vedi [Auto Archive](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/USO.md) e
 [Aggiornare da 1.x](#aggiornare-da-1x).
 
 Requisiti: Joomla 5 o 6, PHP 8.1+, YOOtheme Pro 5. Provato con YOOtheme Pro 5.0.51 su Joomla 6.2.0 e
@@ -90,7 +90,7 @@ disponibile), i *Flussi di lavoro* di Joomla.
 
 **Note per chi usa 4SEO.** Le pagine numerate dell'archivio sono trattate da 4SEO come tutte le
 altre. Se sposti anche gli articoli in una categoria archivio, 4SEO non crea un redirect quando un
-articolo cambia indirizzo: i redirect 301 per gli spostamenti li salva [Auto Archive](../autoarchive/USO.md).
+articolo cambia indirizzo: i redirect 301 per gli spostamenti li salva [Auto Archive](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/USO.md).
 Dopo aver archiviato molti articoli insieme rifai l'analisi del sito in 4SEO (*Pagine > Reset
 analisi*), così sitemap e canonical usano i nuovi indirizzi.
 

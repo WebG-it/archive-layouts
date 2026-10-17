@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.1 (2026-10-17)
+
+Update server only. The update server moved to its own repository (https://github.com/WebG-it/archive-layouts): the plugin checks for updates there instead of the shared WebG collection. Nothing else changes: same code, same behaviour, your settings are kept.
+
+Sites that still use the old shared address see this version there and install it: after the update they use the new address.
+
 ## 2.0.0 (2026-10-17)
 
 The plugin is split in two: this one keeps the layout, the automation is the new plugin **Auto

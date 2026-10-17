@@ -1,5 +1,7 @@
 # Guida sviluppatore: plg_system_yooarchive
 
+> **Strumenti.** L'ambiente Docker di prova (`dev/...`), lo script di build (`build/build_plugin.py`) e gli helper del JED Checker non stanno in questo repository: sono in [joomla-dev-tools](https://github.com/WebG-it/joomla-dev-tools). I percorsi `dev/` e `build/` qui sotto si riferiscono a quel repository (clonalo accanto a questo). L'update server di questo plugin e' `collection.xml` (rimanda a `updates/yooarchive.xml`) in questo repository (annunciato da `collection.xml`, tipo `collection`; manifest `<updateservers>`).
+
 Per **sviluppatore o AI** che deve modificare, collaudare o rilasciare il plugin.
 
 > Repo **PUBBLICO**: mai token, password, chiavi, host, percorsi di server o dati di clienti.
@@ -41,7 +43,7 @@ contesto `com_content.article`.
 (mese, anno, testo se la voce lo abilita, articoli per pagina) con classi UIkit e metodo GET.
 
 **Automazione**: non e' piu' in questo plugin. Fino alla 1.2 c'era `src/Automation/Automation.php`;
-dalla 2.0 e' il plugin separato `plg_system_autoarchive` ([guida](../autoarchive/DEVELOPING.md)).
+dalla 2.0 e' il plugin separato `plg_system_autoarchive` ([guida](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/DEVELOPING.md)).
 Lo `script.php` di questo plugin ha un `preflight` che, in aggiornamento da 1.x con l'automazione
 accesa e Auto Archive non installato o spento, rifiuta l'aggiornamento con un messaggio chiaro
 (niente cambia), e in `postflight` toglie i file della vecchia automazione (`removeFiles`).

@@ -26,8 +26,8 @@ for the same old address stays untouched. JED Checker `master` and `develop`: no
 warnings, one notice about the `<licence>` element (required by rule PH3 of `develop`, not known
 to the manifest validation).
 
-Docs: [user guide](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USAGE.md) ·
-[guida in italiano](https://github.com/WebG-it/joomla-extensions/blob/main/docs/yooarchive/USO.md) ·
-[changelog](https://github.com/WebG-it/joomla-extensions/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
+Docs: [user guide](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USAGE.md) ·
+[guida in italiano](https://github.com/WebG-it/archive-layouts/blob/main/docs/yooarchive/USO.md) ·
+[changelog](https://github.com/WebG-it/archive-layouts/blob/main/plugins/plg_system_yooarchive/CHANGELOG.md)
 
 sha256 `2ec106d1d15de4dc3c735ab86cc8b61ed9abae6378933890d40dcad63270bb5a`

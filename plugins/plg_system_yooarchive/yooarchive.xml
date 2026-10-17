@@ -8,11 +8,11 @@
     <licence>GNU GPL version 2 or later (GPL-2.0-or-later); see LICENSE.txt</licence>
     <authorEmail>marco.galassi@webg.it</authorEmail>
     <authorUrl>https://www.webg.it</authorUrl>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <description>PLG_SYSTEM_YOOARCHIVE_XML_DESCRIPTION</description>
     <namespace path="src">WebG\Plugin\System\Yooarchive</namespace>
     <scriptfile>script.php</scriptfile>
-    <changelogurl>https://raw.githubusercontent.com/WebG-it/joomla-extensions/main/changelogs/yooarchive.xml</changelogurl>
+    <changelogurl>https://raw.githubusercontent.com/WebG-it/archive-layouts/main/changelogs/yooarchive.xml</changelogurl>
 
     <files>
         <folder plugin="yooarchive">services</folder>
@@ -45,6 +45,6 @@
     </config>
 
     <updateservers>
-        <server type="collection" name="WebG Joomla Extensions">https://raw.githubusercontent.com/WebG-it/joomla-extensions/main/collection.xml</server>
+        <server type="collection" name="Archive Layouts for YOOtheme">https://raw.githubusercontent.com/WebG-it/archive-layouts/main/collection.xml</server>
     </updateservers>
 </extension>

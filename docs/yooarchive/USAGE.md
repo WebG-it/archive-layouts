@@ -14,7 +14,7 @@ pagination and the month and year filters.
 
 Version 2.0 does only this: the layout. Keeping archived articles in one category automatically
 is a different need and is now a separate plugin, **Auto Archive** (it works with or without
-YOOtheme): see [Auto Archive](../autoarchive/USAGE.md) and
+YOOtheme): see [Auto Archive](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/USAGE.md) and
 [Updating from 1.x](#updating-from-1x).
 
 Requirements: Joomla 5 or 6, PHP 8.1+, YOOtheme Pro 5. Tested with YOOtheme Pro 5.0.51 on Joomla
@@ -26,7 +26,7 @@ Requirements: Joomla 5 or 6, PHP 8.1+, YOOtheme Pro 5. Tested with YOOtheme Pro 
 ## 1. Install
 
 1. Download `plg_system_yooarchive-X.Y.Z.zip` from the
-   [releases](https://github.com/WebG-it/joomla-extensions/releases) or from `dist/`.
+   [releases](https://github.com/WebG-it/archive-layouts/releases) or from `dist/`.
 2. *System > Install > Extensions > Upload Package File*.
 3. The plugin is enabled automatically. Nothing changes on the site until you create a
    template.
@@ -96,7 +96,7 @@ available), Joomla *Workflows*.
 
 **Notes for 4SEO users.** Numbered archive pages are treated by 4SEO like any other page. If you
 also move articles into an archive category, 4SEO does not create a redirect when an article
-changes URL: [Auto Archive](../autoarchive/USAGE.md) stores the 301 redirects for the moves it
+changes URL: [Auto Archive](https://github.com/WebG-it/auto-archive/blob/main/docs/autoarchive/USAGE.md) stores the 301 redirects for the moves it
 makes. After archiving many articles at once, run a new site analysis in 4SEO (*Pages > Reset
 analysis*) so that sitemap and canonical tags use the new addresses.
 
@@ -132,6 +132,6 @@ back if you reinstall the plugin; the archive page goes back to the Joomla one. 
 
 ## Support
 
-Questions and bug reports: [GitHub issues](https://github.com/WebG-it/joomla-extensions/issues)
+Questions and bug reports: [GitHub issues](https://github.com/WebG-it/archive-layouts/issues)
 (please write the Joomla, PHP and YOOtheme Pro versions). Never post passwords, keys or
 private data in an issue.
